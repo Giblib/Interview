@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Your description goes here">
+    <meta name="keywords" content="one, two, three">
+    <title>AngularJs</title>
+    <!-- external CSS link -->
+    <!--
+    <link rel="stylesheet" href="css/custom.css"> -->
+    <!-- B O O T S T R A P  C D N-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <style>body {font-family: Tahoma, Arial;}h1 {color: gray;}#container {margin-left: 5%;margin-top: 5%;}
+    </style>
+</head>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <a class="navbar-brand" href="#">Parents</a>
+        <ul class="nav navbar-nav">
+            <li class="active">
+                <a ui-sref="dad">Dad</a>
+            </li>
+            <li>
+                <a ui-sref="mom">Mom</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<body ng-app="giblibApp">
+<div id="container">
+    <header>
+        <h1>My Parents..</h1>
+    </header>
+    <h3></h3>
+    <!-- <div>{{5+5}}</div> -->
+
+    <!-- <div ng-model=""> -->
+    <!--          <textarea ng-model="text" placeholder="type in here.."></input> : 
+                <span>{{text}}</span> -->
+    <!--             <input ng-model="text" placeholder="type in here.."></input> : 
+                <span>{{text}}</span> -->
+</div><!--#container -->
+<!--         <footer>
+            &copy; <small>Made by Abel Alejandro H | Los Angeles, CA 2016</small>
+        </footer> -->
+
+<!-- jQUERY -->
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<!-- ANGULARjs -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+<!-- BOOTSTRAP JS -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<!-- A P P  LIBRARIES -->
+<script src="app.js"></script>
+<script src="MainController.js"></script>
+<script src="anguar-ui-router.min.js"></script>  
+</body>
+
+</html>
